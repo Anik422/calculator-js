@@ -50,3 +50,28 @@ body{
     background-color: #FF060A;
     color: white;
 }
+
+@media only screen and (max-width: 600px){
+    .container{
+        max-width: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    #cal-display{
+        width: 94%;
+        border: none;
+        font-size: 40px;
+        padding: 30px 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        font-weight: 600;
+    }
+    .cal-btn{
+        padding: 5px;
+    }
+    .row button{
+        padding: 15px 25px;
+        font-size: 20px;
+        border-radius: 100%;
+    }
+}
